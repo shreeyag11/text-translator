@@ -25,7 +25,7 @@ const options = {
                 "email": "shreeyag11@gmail.com"
             }
         },
-        host: "localhost:" + port,
+        host: "198.199.86.6:" + port,
         basePath: "/",
     },
     apis: ["./translate.js"],
@@ -239,6 +239,6 @@ app.post('/dictionary', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Listening at http://localhost:${port}`);
+    console.log(`Listening at http://198.199.86.6:${port}`);
 })
 
