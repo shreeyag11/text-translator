@@ -198,7 +198,7 @@ app.post('/detect', (req, res) => {
  *          - application/json
  *      responses:
  *          200:
- *              description: Successfully translated to the language provided
+ *              description: Successfully fetched alternate translations for the word
  *          500:
  *              description: An error occured
  *          400:
